@@ -25,7 +25,7 @@ that they can be compared.  You can extend this further by going
 through multiple programs. After `sort`, you can use `uniq` to keep
 only unique lines.  
 
-`./hw12 4 2 | sort | uniq` --Used for Grading--
+`./hw09 4 2 | sort | uniq` --Used for Grading--
 
 gives you the unique lines. You need to use `sort` before `uniq`
 because `uniq` merge agencent identical lines.  If two identical lines
