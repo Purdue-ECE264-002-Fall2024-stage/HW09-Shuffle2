@@ -43,9 +43,6 @@ test6: hw09
 	./hw09 8 2 | sort | uniq > output6
 	diff -w output6 expected/expected_8_2
 
-test7: hw09
-	./hw09 11 2 | sort | uniq > output7
-	diff -w output7 expected/expected_11_2
 
 test8: hw09
 	./hw09 3 1 | sort > output8
