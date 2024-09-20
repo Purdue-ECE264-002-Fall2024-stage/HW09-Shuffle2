@@ -1,6 +1,6 @@
 # Card Shuffling using Riffle Shuffling (Part 2)
 
-## Due 10/04 at 11:59pm
+## Due 03/18 at 11:59pm
 
 This is the second part of two assignments.  This part asks you to
 shuffle a deck of cards multiple times.
@@ -25,8 +25,17 @@ that they can be compared.  You can extend this further by going
 through multiple programs. After `sort`, you can use `uniq` to keep
 only unique lines.  
 
-`./hw09 4 2 | sort | uniq` --Used for Grading--
+`./hw12 4 2 | sort | uniq` --Used for Grading--
 
 gives you the unique lines. You need to use `sort` before `uniq`
 because `uniq` merge agencent identical lines.  If two identical lines
 are not adjacent, `uniq` does not merge them.
+
+You can add `wc` to count the number of lines.
+
+`./hw12 6 2 | sort | uniq | wc` --Not used for Grading--
+
+tells you how many unique lines are generated.
+
+Check how many unique orders ./hw12 8 2 can generate. Do they cover
+all possible orders of 8 cards?
