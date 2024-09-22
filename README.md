@@ -1,6 +1,6 @@
 # Card Shuffling using Riffle Shuffling (Part 2)
 
-## Due 03/18 at 11:59pm
+## Due 10/06 at 11:59pm
 
 This is the second part of two assignments.  This part asks you to
 shuffle a deck of cards multiple times.
